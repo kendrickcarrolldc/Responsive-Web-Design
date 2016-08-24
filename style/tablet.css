@@ -1,35 +1,40 @@
 nav ul {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
 }
 
-nav li{
-  font-size: 1.3em;
+nav li {
+    font-size: 1.3em;
 }
 
 #about,
-#careers, #contact  {
-  padding: 0;
+#careers,
+#contact {
+    padding: 0;
 }
-.row {
-  flex-direction: column;
 
+.row {
+    flex-direction: column;
 }
+
 footer .row {
-  flex-direction: row;
-  flex-wrap: nowrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
+
 footer .column {
-  padding: 1em .1em .1em .1em;
-  flex: 1 1 50%;
+    padding: 1em .1em .1em .1em;
+    flex: 1 1 50%;
 }
 
 .column {
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
+
 .jobs {
-  border:none;
-  border-top: 2px dashed green;
-  padding:0;
+    border: none;
+    border-top: 2px dashed green;
+    padding: 0;
 }
