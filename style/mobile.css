@@ -48,6 +48,7 @@ nav a[href="#careers"] {
 .left-col {
     display:flex;
     flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
 }
 .left-col p {
