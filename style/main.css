@@ -28,9 +28,13 @@ nav li {
 nav a {
     text-decoration: none;
     color: grey;
+    
+    
 }
 nav a:hover {
-    color: red;
+    color: grey;
+    border-bottom: 2px solid grey;
+
 }
 
 nav li:last-of-type {
