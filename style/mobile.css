@@ -45,6 +45,12 @@ nav li {
 nav a[href="#careers"] {
   display: none;
 }
+.left-col {
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+}
+
 
 .overlay {
   font-size: .8em;
