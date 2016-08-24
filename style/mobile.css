@@ -50,6 +50,10 @@ nav a[href="#careers"] {
     flex-direction: row;
     width: 100%;
 }
+.left-col p {
+    width: 100%;
+    padding:5px;
+}
 
 
 .overlay {
